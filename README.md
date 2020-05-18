@@ -1,11 +1,13 @@
 # data-anlyst
-first exam data
+first exam data(i work with 3 persons in team 5)
 
-i get data from kaggle https://www.kaggle.com/START-UMD/gtd?select=globalterrorismdb_0718dist.csv
-i read and explore it
+we get data from kaggle https://www.kaggle.com/START-UMD/gtd?select=globalterrorismdb_0718dist.csv
+we read and explore it
 
-check null file and duplicate file then i drop it
+check null file and duplicate file then we drop it
 
-i chose year from 1997 -> future
+we chose year from 1997 -> future
 
-i distribute some information i read from it
+we distribute some information we read from it
+
+After we build the slide this in gg studio to presentation
