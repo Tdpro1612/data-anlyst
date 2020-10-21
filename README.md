@@ -136,4 +136,4 @@ etc....
 
 ## we explore it
 
-![-The rise of all terrorism around the world](The rise of all terrorism around the world.png)
+https://github.com/Tdpro1612/terrorism-data-analyzing/issues/1#issue-726090125
