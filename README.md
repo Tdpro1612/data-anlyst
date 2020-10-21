@@ -137,4 +137,5 @@ etc....
 ## we explore it
 ![The rise of all terrorism around the world](https://user-images.githubusercontent.com/61773507/96667985-5950a400-1384-11eb-86c7-5b42bd001455.png)
 
+![Top 10 nationality of target victim and a casuality](https://user-images.githubusercontent.com/61773507/96668285-0aefd500-1385-11eb-9ef9-69578b353a5a.png)
 
