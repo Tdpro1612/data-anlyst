@@ -92,3 +92,47 @@ terr=terr[['Year','Month','Day','Country',
 ```
 terr.drop(labels=terr[terr['Year'] < 1997].index, axis=0, inplace=True)          
 ```
+- Manipulate **data**
+- Check for missing data
+```
+terr.isnull().sum()
+```
+- Fill NaN to city, Target, Summary, Motive
+```
+terr['City'].fillna("Unknown", inplace=True)
+terr['Target'].fillna("Unknown", inplace=True)
+terr['Region'] = terr['Region'].astype('category')
+terr['Motive'].fillna("Unknown", inplace=True)
+```
+- Fill NaN to 0 for Killed and Wounded
+```
+terr['Killed'].fillna(0, inplace=True)
+terr['Killed'] = terr['Killed'].astype(int) 
+terr['Wounded'].fillna(0, inplace=True)
+terr['Wounded'] = terr['Wounded'].astype(int) 
+terr['KilledUS'].fillna(0, inplace=True)
+terr['KilledUS'] = terr['KilledUS'].astype(int)
+terr['WoundedUS'].fillna(0, inplace=True)
+terr['WoundedUS'] = terr['WoundedUS'].astype(int)
+```
+- Fill NaN to Nationality False
+```
+terr['TargetNationality'].fillna("No data", inplace=True)
+terr['TargetNationality'] = terr['TargetNationality'].astype('category')
+```
+- File NaN to Property Damage
+```
+terr['DamagedPropertyValue'].fillna(0, inplace=True)
+terr['DamagedPropertyValue'] = terr['DamagedPropertyValue'].apply(lambda x: 0 if x < 0 else x)
+```
+- Change data type
+```
+terr['Country'] = terr['Country'].astype('category')
+terr['City'] = terr['Country'].astype('category')
+terr['Group'] = terr['Group'].astype('category')
+terr['WeaponType'] = terr['WeaponType'].astype('category')
+```
+etc....
+
+## we explore it
+-The rise of all terrorism around the world
