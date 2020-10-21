@@ -135,5 +135,5 @@ terr['WeaponType'] = terr['WeaponType'].astype('category')
 etc....
 
 ## we explore it
--The rise of all terrorism around the world
-![alt](http://github.com/Tdpro1612/terrorism-data-analyzing/blob/master/The%20rise%20of%20all%20terrorism%20around%20the%20world.png)
+
+![-The rise of all terrorism around the world](The rise of all terrorism around the world.png)
