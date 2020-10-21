@@ -135,5 +135,6 @@ terr['WeaponType'] = terr['WeaponType'].astype('category')
 etc....
 
 ## we explore it
-<img src="https://github.com/Tdpro1612/terrorism-data-analyzing/issues/1#issue-726090125" alt="..." width="250" />
+![The rise of all terrorism around the world](https://user-images.githubusercontent.com/61773507/96667985-5950a400-1384-11eb-86c7-5b42bd001455.png)
+
 
